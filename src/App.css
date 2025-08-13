@@ -1,3 +1,16 @@
 @layer utilities {
   .border-test { border: 1px solid red; }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @keyframes fadeIN {
+    from {
+      transform: translateX(-200px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+  }
 }
